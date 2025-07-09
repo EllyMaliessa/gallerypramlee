@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>P. Ramlee Gallery</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<nav id="sidebar">
+  <h1>P. Ramlee<br>Gallery</h1>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">More ▼</button>
+    <div class="dropdown-content">
+      <a href="biography.html">Biography</a>
+      <a href="exhibitions.html">Exhibitions</a>
+      <a href="film.html">Film Gallery</a>
+      <a href="songs.html">Songs</a>
+      <a href="award.html">Awards</a>
+      <a href="tributes.html">Tributes</a>
+    </div>
+  </div>
+
+  <a href="visit.html">Visit</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+
+
+ <main>
+  <section class="hero exhibitions-section">
+    <div class="hero-text">
+      <h2 class="exhibition-heading">🎬 P. Ramlee Exhibitions</h2>
+      <p>Explore curated exhibits highlighting different eras, achievements, and artworks of P. Ramlee's life.</p>
+    </div>
+  </section>
+
+  <section class="exhibition-grid">
+    <div class="exhibition-card">
+      <div class="exhibition-card-inner">
+        <div class="exhibition-card-front">
+          <img src="css/images/golden.jpg" alt="Era 1950s">
+        </div>
+        <div class="exhibition-card-back">
+          <h3>Golden Era: 1950s</h3>
+          <p>This era marks the start of P. Ramlee’s iconic film career with Shaw Brothers in Singapore.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="exhibition-card">
+      <div class="exhibition-card-inner">
+        <div class="exhibition-card-front">
+          <img src="css/images/legacy.jpg" alt="Music Legacy">
+        </div>
+        <div class="exhibition-card-back">
+          <h3>Music Legacy</h3>
+          <p>P. Ramlee’s compositions fused traditional and modern sounds, shaping Malay music forever.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="exhibition-card">
+      <div class="exhibition-card-inner">
+        <div class="exhibition-card-front">
+          <img src="css/images/Lifetime.jpg" alt="Honours">
+        </div>
+        <div class="exhibition-card-back">
+          <h3>Lifetime Honours</h3>
+          <p>Awards and recognitions given to P. Ramlee posthumously for his unmatched contributions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+    const toggle = document.getElementById('menu-toggle');
+    const sidebar = document.getElementById('sidebar');
+    toggle.onclick = () => {
+      sidebar.classList.toggle('active');
+    };
+  </script>
+
+</body>
+</body>
+</html>

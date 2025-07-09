@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>P. Ramlee Gallery | Awards</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <button id="menu-toggle">☰</button>
+  <nav id="sidebar">
+  <h1>P. Ramlee<br>Gallery</h1>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">More ▼</button>
+    <div class="dropdown-content">
+      <a href="biography.html">Biography</a>
+       <a href="exhibitions.html">Exhibitions</a>
+      <a href="film.html">Film Gallery</a>
+      <a href="songs.html">Songs</a>
+      <a href="award.html">Awards</a>
+      <a href="tributes.html">Tributes</a>
+    </div>
+  </div>
+
+  <a href="visit.html">Visit</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+
+  <!-- Main Content -->
+  <main>
+    <section class="hero">
+      <h2>Awards & Recognitions</h2>
+      <p>Honouring the lifetime achievements and posthumous recognitions of the legendary P. Ramlee.</p>
+    </section>
+
+    <section class="awards-section">
+      <div class="awards-grid">
+
+        <div class="award-card">
+          <h3>Darjah Panglima Setia Mahkota (PSM)</h3>
+          <p>Posthumously awarded the title “Tan Sri” in 1990 by the Yang di-Pertuan Agong.</p>
+        </div>
+
+        <div class="award-card">
+          <h3>Festival Filem Malaysia</h3>
+          <p>Special Jury Award in 1980 for his contribution to the film industry.</p>
+        </div>
+
+        <div class="award-card">
+          <h3>Inducted into ASEAN Hall of Fame</h3>
+          <p>Recognized as one of Southeast Asia’s greatest entertainers in 2004.</p>
+        </div>
+
+        <div class="award-card">
+          <h3>Tribute in Muzium Negara</h3>
+          <p>Dedicated exhibition space since 1995 celebrating his personal artifacts and legacy.</p>
+        </div>
+
+        <div class="award-card">
+          <h3>P. Ramlee Street</h3>
+          <p>Major streets in Kuala Lumpur and Penang were renamed in his honour.</p>
+        </div>
+
+        <div class="award-card">
+          <h3>Google Doodle Tribute</h3>
+          <p>Featured globally on Google’s homepage on his birthday, 22 March 2017.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="quote">
+      “His legacy is the pride of a nation, and his work is immortal.”<br>
+      <span>— Malaysian Film Critics Association</span>
+    </section>
+  </main>
+
+  <!-- Sidebar Toggle Script -->
+  <script>
+    const toggle = document.getElementById("menu-toggle");
+    const sidebar = document.getElementById("sidebar");
+    toggle.onclick = () => {
+      sidebar.classList.toggle("active");
+    };
+  </script>
+
+</body>
+</html>

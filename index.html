@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>P. Ramlee Gallery</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+   <button id="menu-toggle">☰</button>
+  <nav id="sidebar">
+  <h1>P. Ramlee<br>Gallery</h1>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">More ▼</button>
+    <div class="dropdown-content">
+      <a href="biography.html">Biography</a>
+      <a href="film.html">Film Gallery</a>
+      <a href="songs.html">Songs</a>
+      <a href="award.html">Awards</a>
+      <a href="tributes.html">Tributes</a>
+    </div>
+  </div>
+
+  <a href="visit.html">Visit</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+
+
+  <main>
+
+  <section class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h2>Relive the Legacy of P. Ramlee</h2>
+      <p>Explore the journey of Malaysia’s beloved icon — an actor, director, singer, and cultural treasure.</p>
+      <div class="hero-buttons">
+        <a href="gallery.html" class="btn">Explore Gallery</a>
+        <a href="about.html" class="btn">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="css/images/abt.jpg" alt="P. Ramlee">
+    </div>
+  </div>
+</section>
+
+
+    <section class="info-grid">
+      <div class="info-card">
+        <div class="card-inner">
+          <div class="card-face card-front">
+            <h3>🎥 Over 60 Films</h3>
+            <p>Discover the magic of classic Malay films directed and acted by P. Ramlee.</p>
+          </div>
+          <div class="card-face card-back">
+            <h3>Iconic Works</h3>
+            <ul>
+              <li>Bujang Lapok Trilogy</li>
+              <li>Anakku Sazali</li>
+              <li>Hang Tuah</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-card">
+        <div class="card-inner">
+          <div class="card-face card-front">
+            <h3>🎶 Timeless Music</h3>
+            <p>P. Ramlee composed and sang over 250 songs that still touch hearts today.</p>
+          </div>
+          <div class="card-face card-back">
+            <h3>Famous Songs</h3>
+            <ul>
+              <li>Getaran Jiwa</li>
+              <li>Engkau Laksana Bulan</li>
+              <li>Di Mana Kan Ku Cari Ganti</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-card">
+        <div class="card-inner">
+          <div class="card-face card-front">
+            <h3>🌟 National Icon</h3>
+            <p>A symbol of unity, creativity, and excellence in Malaysian entertainment history.</p>
+          </div>
+          <div class="card-face card-back">
+            <h3>A Cultural Hero</h3>
+            <p>Recipient of countless awards, beloved by millions across generations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote">
+      “Di mana kan ku cari ganti, serupa denganmu...” <br>
+      <span>— P. Ramlee</span>
+    </section>
+
+  </main>
+<script>
+    const toggle = document.getElementById('menu-toggle');
+    const sidebar = document.getElementById('sidebar');
+    toggle.onclick = () => {
+      sidebar.classList.toggle('active');
+    };
+  </script>
+
+</body>
+</html>
+

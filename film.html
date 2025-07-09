@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>P. Ramlee Gallery</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+ <button id="menu-toggle">☰</button>
+  <nav id="sidebar">
+  <h1>P. Ramlee<br>Gallery</h1>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">More ▼</button>
+    <div class="dropdown-content">
+      <a href="biography.html">Biography</a>
+       <a href="exhibitions.html">Exhibitions</a>
+      <a href="film.html">Film Gallery</a>
+      <a href="songs.html">Songs</a>
+      <a href="award.html">Awards</a>
+      <a href="tributes.html">Tributes</a>
+    </div>
+  </div>
+
+  <a href="visit.html">Visit</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+
+
+ 
+    <main>
+  <main>
+  <section class="hero welcome-banner">
+    <div class="hero-text">
+      <h2>🎞️ Film Poster Gallery</h2>
+      <p>Explore the legendary journey of P. Ramlee through timeless cinematic posters that defined an era.</p>
+    </div>
+  </section>
+
+  <section class="gallery-grid">
+      <div class="poster-card">
+        <img src="css/images/labulabi.jpg" alt="Labu dan Labi" />
+        <p><strong>Labu dan Labi</strong> (1962)</p>
+      </div>
+      <div class="poster-card">
+        <img src="css/images/lapokje.jpg" alt="Bujang Lapok" />
+        <p><strong>Bujang Lapok</strong> (1957)</p>
+      </div>
+      <div class="poster-card">
+        <img src="css/images/sazali.jpg" alt="Anakku Sazali" />
+        <p><strong>Anakku Sazali</strong> (1956)</p>
+      </div>
+      <div class="poster-card">
+        <img src="css/images/bujang.jpg" alt="Pendekar Bujang Lapok" />
+        <p><strong>Pendekar Bujang Lapok</strong> (1959)</p>
+      </div>
+      <div class="poster-card">
+        <img src="css/images/seniman.jpg" alt="Seniman Bujang Lapok" />
+        <p><strong>Seniman Bujang Lapok</strong> (1961)</p>
+      </div>
+      <div class="poster-card">
+        <img src="css/images/madutiga.jpg" alt="Madu Tiga" />
+        <p><strong>Madu Tiga</strong> (1964)</p>
+      </div>
+      <div class="poster-card">
+        <img src="css/images/hang.jpg" alt="Hang Tuah" />
+        <p><strong>Hang Tuah</strong> (1956)</p>
+      </div>
+      <div class="poster-card">
+        <img src="css/images/padi.jpg" alt="Semerah Padi" />
+        <p><strong>Semerah Padi</strong> (1956)</p>
+      </div>
+      <div class="poster-card">
+        <img src="css/images/minyak.jpg" alt="Sumpah Orang Minyak" />
+        <p><strong>Sumpah Orang Minyak</strong> (1958)</p>
+      </div>
+      <div class="poster-card">
+        <img src="css/images/musang.jpg" alt="Musang Berjanggut" />
+        <p><strong>Musang Berjanggut</strong> (1952)</p>
+      </div>
+      <div class="poster-card">
+        <img src="css/images/nujum.jpg" alt="Nujum Pak Belalang" />
+        <p><strong>Nujum Pak Belalang</strong> (1961)</p>
+      </div>
+      <div class="poster-card">
+        <img src="css/images/doremi.jpg" alt="Laksamana Do Re Mi" />
+        <p><strong>Laksamana Do Re Mi</strong> (1972)</p>
+      </div>
+      <div class="poster-card">
+        <img src="css/images/tora.jpg" alt="Si Tora Harimau Jadian" />
+        <p><strong>Si Tora Harimau Jadian</strong> (1964)</p>
+      </div>
+      <div class="poster-card">
+        <img src="css/images/abdul.jpg" alt="Tiga Abdul" />
+        <p><strong>Tiga Abdul</strong> (1964)</p>
+      </div>
+      <div class="poster-card">
+        <img src="css/images/rushdi.jpg" alt="Dr. Rushdi" />
+        <p><strong>Dr. Rushdi</strong> (1965)</p>
+      </div>
+      <div class="poster-card">
+        <img src="css/images/kancha.jpg" alt="Kanchan Tirana" />
+        <p><strong>Kanchan Tirana</strong> (1969)</p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const toggle = document.getElementById("menu-toggle");
+    const sidebar = document.getElementById("sidebar");
+    toggle.onclick = () => {
+      sidebar.classList.toggle("active");
+    };
+  </script>
+
+</body>
+</html>
